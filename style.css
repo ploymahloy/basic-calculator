@@ -2,20 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 body {
-	background-image: url(./bg.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: black;
+  margin: 0;
+  padding: 0;
 }
 
 .parent {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(6, 1fr);
-	grid-column-gap: 1rem;
-	grid-row-gap: 1rem;
+	grid-column-gap: 0.25rem;
+	grid-row-gap: 0.5rem;
 
 	max-width: 400px;
 	margin: 3rem auto;
