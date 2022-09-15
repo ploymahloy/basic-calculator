@@ -1,4 +1,4 @@
-const display = document.getElementById('div1');
+const display = document.getElementById('calculation');
 const buttons = Array.from(document.querySelectorAll('button'));
 
 buttons.map((button) => {
